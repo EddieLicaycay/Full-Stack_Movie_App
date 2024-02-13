@@ -1,10 +1,10 @@
-# Mini-App Challenge 
+# Mini-App Challenge
 
-Mini-App Challenge: Movie List
-What is Movie List?
-Movie List is a prompt for a full-stack application.
 
-While you're working through each level, try to only use official documentation. Try to not use Stack Overflow, your own notes, past sprint code, or any other external resources. This will help you develop familiarity with the docs as well as get you acclimated to a real test-like environment.
+- Mini-App Challenge: Movie List
+- Movie List is a prompt for a full-stack application.
+
+- While you're working through each level, try to only use official documentation. Try to not use Stack Overflow, your own notes, past sprint code, or any other external resources. This will help you develop familiarity with the docs as well as get you acclimated to a real test-like environment.
 
 If you do need to reference past code/Stack Overflow, write down what topics you needed extra help on. Then, go find these topics in the official documentation.
 
@@ -41,11 +41,13 @@ Add two buttons to allow the users to toggle between a list of 'watched' movies 
 Level 5
 Add a panel of movie information that appears when the title is clicked (consider starting with hardcoded information)
 Refactor the watch toggle to be part of the movie information panel
-Get movie information from the The Movie Database API (https://www.themoviedb.org/documentation/api) and store it locally when a new movie is added to the database.
-Stretch Goals
-Implement a user system NOT a login system, where different users can have their own ratings
-Add a way for the user to add their own rating
-Add a sorting mechanism so the user can sort on rating or other properties
-Refactor search to allow users to search for movies with a specific director or actor/actress
-Provide functionality in the UI that allows the user to find other movies that actors have been in.
-Push the app to deploy
+- Movie information we're copied from OMDb API (https://www.omdbapi.com/) and store it locally when a new movie is added to the database.
+
+## Stretch Goals
+
+- Implement a user system NOT a login system, where different users can have their own ratings
+- Add a way for the user to add their own rating
+- Add a sorting mechanism so the user can sort on rating or other properties
+- Refactor search to allow users to search for movies with a specific director or actor/actress
+- Provide functionality in the UI that allows the user to find other movies that actors have been in.
+- Push the app to deploy
